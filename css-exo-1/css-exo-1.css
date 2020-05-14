@@ -1,0 +1,47 @@
+.flex-container {
+    position: absolute;
+    display: flex;
+    top: 35%;
+    left: 35%;
+    height: 20vh;
+    width: auto;
+    border: 10px solid orange;
+}
+
+#container1 {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.grey {
+    background-color: grey;
+}
+.orange {
+    background-color: orange;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.r {
+    height: 5vh;
+    padding: 0.5em;
+}
+.c {
+    padding: 0.5em;
+}
+section {
+    color: white;
+}
