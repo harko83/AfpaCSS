@@ -1,0 +1,18 @@
+.baseContainer {
+    display: flex;
+    width: 40%;
+    height: 70vh;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+
+}
+
+div {
+    width: 120px;
+    height: 80px;
+    margin: 1em;
+    border: 3px dotted red;
+    border-radius: 0.4em;
+    text-align: center;
+}

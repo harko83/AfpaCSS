@@ -1,0 +1,34 @@
+.baseContainer {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+}
+
+div {
+    width: 80px;
+    height: 80px;
+    margin: 1em;
+    border: 2px solid green;
+    border-radius: 0.25em;
+    text-align: center;
+}
+
+#d8{
+  flex-shrink: 10;  
+}
+#d5{
+  flex-shrink: 9;
+}
+#d7{
+  flex-shrink: 8;
+}
+#d2{
+  flex-shrink: 7; 
+}
+#d3{
+  flex-shrink: 0;  
+}
